@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 988655114,
+      "message": {
+        "message_id": 1,
+        "from": {
+          "id": 459736668,
+          "is_bot": false,
+          "first_name": "Viacheslav"
+        },
+        "chat": {
+          "id": 459736668,
+          "first_name": "Viacheslav",
+          "type": "private"
+        },
+        "date": 1543997568,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 988655115,
+      "message": {
+        "message_id": 2,
+        "from": {
+          "id": 459736668,
+          "is_bot": false,
+          "first_name": "Viacheslav",
+          "language_code": "en"
+        },
+        "chat": {
+          "id": 459736668,
+          "first_name": "Viacheslav",
+          "type": "private"
+        },
+        "date": 1543997609,
+        "text": "привет"
+      }
+    }
+  ]
+}
