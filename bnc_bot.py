@@ -70,12 +70,6 @@ def show_secrets(message):
         bot.delete_message(message.chat.id, message.message_id + 1)
 
 
-# @bot.message_handler(regexp="set")
-# def set_secret(message):
-#     number.secret = message.text[-4:]
-#     bot.send_message(message.chat.id, number.secret)
-
-
 @bot.message_handler(regexp="^\d\d\d\d$")
 def human_try(message):
     number = all_id.get(message.chat.id)
